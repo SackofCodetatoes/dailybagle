@@ -1,0 +1,17 @@
+7/19/2021
+- you can iterate through objects in javascript using 'for...in' statement
+
+example:
+function dump_props(obj, obj_name) {
+  let result = '';
+  for (let i in obj) {
+    result += obj_name + '.' + i + ' = ' + obj[i] + '<br>';
+  }
+  result += '<hr>';
+  return result;
+}
+
+For an object car with properties make and model, result would be:
+
+car.make = Ford
+car.model = Mustang
