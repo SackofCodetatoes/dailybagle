@@ -15,3 +15,6 @@ For an object car with properties make and model, result would be:
 
 car.make = Ford
 car.model = Mustang
+
+7/20/2021
+- refer to mergetwosortedlist for reminder on how linked lists and objects work in javascript.
