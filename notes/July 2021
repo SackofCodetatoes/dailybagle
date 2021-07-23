@@ -21,3 +21,6 @@ car.model = Mustang
 
 7/21/2021
 - filler for the day. ahhh
+
+7/22/2021
+- there are a few ways to go about REST calls through javascript. most of which seems to use a library to handle most of the work as described by this website. some ways include XMLHttpRequest, fetch, Axios, and jQuery. XMLHttpRequest is a deprecated after es6 but was built in to browser. fetch is similar to XMLHttpRequest but uses promises, something you should be familiar with. Axios is a javascript library that similiarly uses promises d handles data in json format. jQuery has multiple methods but would function similar to previously mentioned methods. 
